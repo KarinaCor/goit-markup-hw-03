@@ -19,7 +19,8 @@ p {
     margin-top: 0;
 }
 
-ul,ol {
+ul,
+ol {
     margin-top: o;
     margin-bottom: 0;
     padding-left: 0;
@@ -50,9 +51,9 @@ body {
 }
 
 
- .header {
+.header {
     border-bottom: 1px solid #e7e9fc
- }   
+}
 
 
 .container {
@@ -75,13 +76,13 @@ body {
 .menu {
     display: flex;
     align-items: center;
-   
+
     gap: 40px;
-    
+
 }
 
 .menu-link:not(:last-child) {
-margin-right: 10px;
+    margin-right: 10px;
 }
 
 .logo-header {
@@ -95,7 +96,7 @@ margin-right: 10px;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    
+
 
 }
 
@@ -119,7 +120,7 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-right: 40px;
-    
+
 }
 
 
@@ -128,11 +129,7 @@ margin-right: 10px;
     color: #404BBF;
 }
 
-.contact {
-    
-    
-    
-}
+
 
 .contact-menu {
     display: flex;
@@ -230,7 +227,7 @@ margin-right: 10px;
     background: #2E2F42;
     align-self: center;
     height: 120px;
-     max-width: 496px;
+    max-width: 496px;
 }
 
 .title-description {
@@ -242,11 +239,11 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    
+
 
 }
 
-.section-descr{
+.section-descr {
     padding: 120px 0 120px;
 }
 
@@ -285,13 +282,13 @@ margin-right: 10px;
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;
-    
+
 
 }
 
 .first-item {
     display: flex;
-    
+
 }
 
 .people {
@@ -362,14 +359,14 @@ margin-right: 10px;
 
 .hero {
     background-color: #2e2f42;
-   
+
     padding: 188px 0 188px;
 }
 
 .section-team {
     background-color: #F4F4FD;
     padding: 120px 0;
-    
+
 }
 
 .section-team-list {
@@ -396,7 +393,7 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    
+
 }
 
 .par-description {
