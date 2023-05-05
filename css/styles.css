@@ -173,7 +173,8 @@ margin-right: 10px;
 .modal-button:hover,
 .modal-button:focus {
     color: #FFFFFF;
-    background-color: #404BBF
+    background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .hero-button {
@@ -207,10 +208,15 @@ margin-right: 10px;
 
 .menu-bottom {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: 300px;
-    margin-right: 300px;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.botton-desc {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .main-title {
@@ -313,6 +319,23 @@ margin-right: 10px;
 
 .footer-location {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer-studio {
@@ -334,6 +357,7 @@ margin-right: 10px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .hero {
@@ -359,22 +383,11 @@ margin-right: 10px;
     border-radius: 0px 0px 4px 4px;
 }
 
-.person-mark {
+.person-descr {
     padding: 32px 16px;
 
 }
 
-.person-tom {
-    padding: 32px 16px; 
-}
-
-.person-camila {
-    padding: 32px 16px; 
-}
-
-.person-daniel {
-    padding: 32px 16px; 
-}
 
 .title-description {
     font-weight: 500;
@@ -392,4 +405,25 @@ margin-right: 10px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.portfolio-buttoms {
+    padding: 96px 0 120px;
+}
+
+.portfolio-pics-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
