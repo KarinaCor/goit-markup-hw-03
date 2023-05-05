@@ -50,15 +50,16 @@ body {
 }
 
 
-    
+ .header {
+    border-bottom: 1px solid #e7e9fc
+ }   
 
 
 .container {
-    width: 1200px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;
 }
 
 .page-header-container {
@@ -68,12 +69,14 @@ body {
 
 .page-nav {
     display: flex;
+    align-items: center;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    margin-right: 40px;
+   
+    gap: 40px;
     
 }
 
@@ -116,6 +119,7 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-right: 40px;
+    
 }
 
 
@@ -125,7 +129,7 @@ margin-right: 10px;
 }
 
 .contact {
-    font-style: normal;
+    
     
     
 }
@@ -134,6 +138,7 @@ margin-right: 10px;
     display: flex;
     align-items: center;
     margin-left: auto;
+    gap: 40px;
 }
 
 .contact-info {
@@ -187,6 +192,10 @@ margin-right: 10px;
     color: #ffffff;
     background-color: #4D5AE5;
     border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 
 }
 
@@ -215,7 +224,7 @@ margin-right: 10px;
     background: #2E2F42;
     align-self: center;
     height: 120px;
-    width: 496px;
+     max-width: 496px;
 }
 
 .title-description {
@@ -231,8 +240,13 @@ margin-right: 10px;
 
 }
 
+.section-descr{
+    padding: 120px 0 120px;
+}
+
 .section-descr-menu {
     display: flex;
+    gap: 24px;
 
 }
 
@@ -248,7 +262,11 @@ margin-right: 10px;
 
 .section-work-menu {
     display: flex;
-    
+    gap: 24px;
+}
+
+.imag-items {
+    width: calc((100% - 48px) / 3);
 }
 
 .caption {
@@ -260,11 +278,15 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
     
 
 }
 
-
+.first-item {
+    display: flex;
+    
+}
 
 .people {
     font-family: 'Roboto', sans-serif;
@@ -274,6 +296,7 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
+    text-align: center;
 
 }
 
@@ -284,6 +307,7 @@ margin-right: 10px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 
 }
 
@@ -314,22 +338,42 @@ margin-right: 10px;
 
 .hero {
     background-color: #2e2f42;
-    padding-left: 472px;
-    padding-right: 472px;
-    padding-top: 188px;
-    padding-bottom: 292px;
+   
+    padding: 188px 0 188px;
 }
 
 .section-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+    
 }
 
 .section-team-list {
-    
+    display: flex;
+    gap: 24px;
 }
 
 .section-team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.person-mark {
+    padding: 32px 16px;
+
+}
+
+.person-tom {
+    padding: 32px 16px; 
+}
+
+.person-camila {
+    padding: 32px 16px; 
+}
+
+.person-daniel {
+    padding: 32px 16px; 
 }
 
 .title-description {
