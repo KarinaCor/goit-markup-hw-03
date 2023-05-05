@@ -9,11 +9,36 @@
 --secondary-background-color: #f4f4fd;
 --button-focus-color: #404bbf;} */
 
+
+h1,
+h2,
+h3,
+h3,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+ul,ol {
+    margin-top: o;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #fff;
+}
+
+.section {
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .list {
@@ -22,6 +47,38 @@ body {
 
 .link {
     text-decoration: none;
+}
+
+
+    
+
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-nav {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    
+}
+
+.menu-link:not(:last-child) {
+margin-right: 10px;
 }
 
 .logo-header {
@@ -34,6 +91,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    
 
 }
 
@@ -56,6 +115,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-right: 40px;
 }
 
 
@@ -66,6 +126,14 @@ body {
 
 .contact {
     font-style: normal;
+    
+    
+}
+
+.contact-menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .contact-info {
@@ -76,6 +144,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-right: 156px;
 }
 
 .contact-info:hover,
@@ -104,6 +173,10 @@ body {
 
 .hero-button {
     font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -112,13 +185,23 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #ffffff;
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
+    border-radius: 4px;
+
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
     color: #ffffff;
+}
+
+.menu-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .main-title {
@@ -130,6 +213,9 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     background: #2E2F42;
+    align-self: center;
+    height: 120px;
+    width: 496px;
 }
 
 .title-description {
@@ -140,6 +226,13 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
+    
+
+}
+
+.section-descr-menu {
+    display: flex;
 
 }
 
@@ -153,6 +246,11 @@ body {
     color: #434455;
 }
 
+.section-work-menu {
+    display: flex;
+    
+}
+
 .caption {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -162,6 +260,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    
 
 }
 
@@ -174,6 +273,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 
 }
 
@@ -214,13 +314,19 @@ body {
 
 .hero {
     background-color: #2e2f42;
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .section-team {
     background-color: #F4F4FD;
 }
 
-
+.section-team-list {
+    
+}
 
 .section-team-item {
     background-color: #FFFFFF;
@@ -231,7 +337,9 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    margin-bottom: 8px;
+    
 }
 
 .par-description {
