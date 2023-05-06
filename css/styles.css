@@ -61,11 +61,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px 0 15px;
+    
 }
 
 .page-header-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+    
+    
+}
+
+.header-container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
 .page-nav {
@@ -76,7 +87,6 @@ body {
 .menu {
     display: flex;
     align-items: center;
-
     gap: 40px;
 
 }
@@ -96,6 +106,8 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
+    
 
 
 }
@@ -120,7 +132,15 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-right: 40px;
+}
 
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.port-button-descr {
+    padding: 24px 0;
 }
 
 
@@ -136,6 +156,7 @@ body {
     align-items: center;
     margin-left: auto;
     gap: 40px;
+    
 }
 
 .contact-info {
@@ -165,6 +186,9 @@ body {
     cursor: pointer;
     color: #4d5ae5;
     background: #F4F4FD;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .modal-button:hover,
@@ -242,6 +266,8 @@ body {
 
 
 }
+
+
 
 .section-descr {
     padding: 120px 0 120px;
