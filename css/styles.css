@@ -59,15 +59,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px 0 15px;
-    
+
 }
 
 .page-header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
-    
-    
+
+
 }
 
 .header-container {
@@ -105,7 +105,7 @@ body {
     color: #4d5ae5;
     margin-right: 76px;
     padding: 24px 0;
-    
+
 
 
 }
@@ -130,6 +130,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-right: 40px;
+    padding: 24px 0;
 }
 
 .menu {
@@ -154,7 +155,7 @@ body {
     align-items: center;
     margin-left: auto;
     gap: 40px;
-    
+
 }
 
 .contact-info {
@@ -166,7 +167,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     margin-right: 156px;
-    
+
 }
 
 .contact-info:hover,
@@ -265,6 +266,9 @@ body {
 
 
 }
+
+
+
 
 
 
@@ -419,6 +423,10 @@ body {
     color: #2e2f42;
     margin-bottom: 8px;
 
+}
+
+.title-container {
+    width: calc((100% - 72px) / 4);
 }
 
 .par-description {
