@@ -21,7 +21,7 @@ p {
 
 ul,
 ol {
-    margin-top: o;
+    margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
@@ -152,9 +152,10 @@ body {
 
 .contact-menu {
     display: flex;
-    align-items: center;
-    margin-left: auto;
-    gap: 40px;
+     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 
 }
 
@@ -166,7 +167,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-right: 156px;
+    
+    margin-left: auto;
 
 }
 
@@ -218,6 +220,7 @@ body {
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: 0 auto;
 
 }
 
@@ -252,6 +255,7 @@ body {
     align-self: center;
     height: 120px;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .title-description {
