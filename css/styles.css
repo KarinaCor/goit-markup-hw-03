@@ -279,7 +279,7 @@ body {
 
 .section-descr {
     padding-top: 120px;
-    padding-bottom: 0;
+    padding-bottom: 120px;
 }
 
 .section-descr-menu {
@@ -305,6 +305,7 @@ body {
 
 .section-work {
     padding-top: o;
+    padding-bottom: 120px;
 }
 
 .imag-items {
