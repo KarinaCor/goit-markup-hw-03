@@ -71,6 +71,7 @@ body {
 }
 
 .header-container {
+    justify-content: space-between;
     display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -129,7 +130,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-right: 40px;
     padding: 24px 0;
 }
 
@@ -152,7 +152,7 @@ body {
 
 .contact-menu {
     display: flex;
-     gap: 40px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
 
@@ -167,7 +167,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+
     margin-left: auto;
 
 }
@@ -256,6 +256,7 @@ body {
     height: 120px;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .title-description {
@@ -299,6 +300,10 @@ body {
 .section-work-menu {
     display: flex;
     gap: 24px;
+}
+
+.section-work {
+    padding-top: o;
 }
 
 .imag-items {
